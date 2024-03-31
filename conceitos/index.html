@@ -1,0 +1,22 @@
+/*
+  -----  Docker  -----
+
+  O Docker é um software de código aberto usado para implantar aplicativos dentro de containers virtuais.
+  A conteinerização permite que vários aplicativos funcionem em diferentes ambientes complexos. 
+  Por exemplo: o Docker permite executar o WordPress em sistemas Windows, Linux e macOS, sem problemas.
+
+ ----  O conceito de contêineres ----
+  Um contêiner fornece um ambiente isolado semelhante a uma máquina virtual (VM). Mas ao contrário das VMs,
+  os contêineres do Docker não executam um sistema operacional completo. Eles compartilham o kernel do seu host 
+  e o hardware da máquina host com, aproximadamente, a mesma sobrecarga dos processos iniciados diretamente na máquina
+  host.
+ Observação: Docker utiliza, na verdade, o kernel subjacente e não o sistema operacional. Portanto, mesmo que 
+ a máquina na qual o Docker está instalado use Ubuntu, Docker ainda pode instalar contêineres baseados no Fedora, etc.,
+ pois o kernel subjacente é o mesmo (neste caso, Linux).
+ Os contêineres encapsulam tudo o que é necessário para executar um aplicativo, desde as dependências do pacote do 
+ Sistema Operacional (SO), até seu próprio código-fonte. 
+ Docker permite automatizar a implantação de aplicativos no ambiente do contêiner. Para isso, a pessoa usuária 
+ define as etapas de criação de um contêiner como instruções em um Dockerfile e Docker usa ele para construir uma imagem.
+ Em outras palavras, Docker permite que você economize muito tempo no processo de configuração, que em alguns casos pode 
+ ser muito longo e caro, tanto em termos de tempo quanto em termos de pessoal dedicado (consequentemente, também em nível econômico).
+*/
